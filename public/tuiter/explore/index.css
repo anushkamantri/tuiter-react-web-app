@@ -16,10 +16,8 @@
     padding-left: 16px;
 }
 
-.wd-top-and-bottom-padding {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+.wd-top-padding {
+    padding-top: 10px;
 }
 
 .wd-dimension-portrait {
@@ -33,7 +31,9 @@
 
 .wd-search-rounded-corners-all-around {
     border-radius: 20px;
+    height: 25px;
 }
+
 
 .wd-pos-absolute-right-12px {
     position: absolute;
@@ -52,13 +52,6 @@
 .wd-right-padding {
     padding-right: 16px;
 }
-
-.pos-relative-nudge-up {
-    /*position: absolute;*/
-    /*top: 16px;*/
-}
-
-
 
 .wd-padding-all-around {
     padding: 16px;
@@ -128,6 +121,20 @@
     border-width: 1px;
 }
 
-.grid-row {
+
+.wd-grid-row {
     clear: both;
+    height: 125px;
 }
+
+
+.wd-grid-col-third-page {
+    width: 33%;
+    float: right;
+}
+
+.wd-grid-col-two-thirds-page {
+    width: 67%;
+    float: left;
+}
+
