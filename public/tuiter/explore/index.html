@@ -1,188 +1,350 @@
+<html lang="en">
 <head>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
     <link href="index.css" rel="stylesheet"/>
-    <link href="public/tuiter/styles.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+          rel="stylesheet"/>
 </head>
 
-<div class="wd-dimension-portrait wd-border-grey wd-bg-color-black">
-    <div class="wd-left-padding">
+<body>
 
-        <!--        SEARCH BOX-->
-        <div>
-            <label for="search-box"></label>
-            <input id="search-box" placeholder="Search Tuiter"
-                   class="wd-left-padding
-            wd-search-rounded-corners-all-around
-            wd-search-bg-color-darkgray
-            wd-fg-text-color-white"
-                   size="65%">
-            <a href="explore-settings.html">
-                <img src="explore-settings-gear-icon.png"
-                     class="wd-float-right
-                wd-pos-absolute-right-12px"
-                     width="25px"
-                     height="25px"></a>
-        </div>
-    </div>
-
-    <!--EXPLORE PAGE HEADERS-->
-    <div class="wd-padding-all-around">
-        <div class="wd-float-left">
-            <a style="text-decoration:none" href="for-you.html"
-               class="wd-explore-page-headers
-            wd-bottom-border
-            wd-fg-text-color-blue">For you</a>
-        </div>
-
-        <div class="wd-float-left">
-            <a style="text-decoration:none" href="trending.html"
-               class="wd-explore-page-headers
-            wd-fg-text-color-gray">Trending</a>
-        </div>
-
-        <div class="wd-float-left">
-            <a style="text-decoration:none" href="covid-19.html"
-               class="wd-explore-page-headers
-            wd-fg-text-color-gray">COVID-19</a>
-        </div>
-
-        <div class="wd-float-left">
-            <a style="text-decoration:none" href="news.html"
-               class="wd-explore-page-headers
-            wd-fg-text-color-gray">News</a>
-        </div>
-
-        <div class="wd-float-left">
-            <a style="text-decoration:none" href="sports.html"
-               class="wd-explore-page-headers
-            wd-fg-text-color-gray">Sports</a>
-        </div>
-
-        <div>
-            <a style="text-decoration:none" href="entertainment.html"
-               class="wd-explore-page-headers
-            wd-fg-text-color-gray">Entertainment</a>
-        </div>
-    </div>
-
-    <!--    TOPICS-->
+<div class="wd-dimension-portrait wd-bg-color-white">
     <div class="wd-left-padding wd-top-padding">
-        <div class="wd-border-for-topics">
-            <div class="wd-left-padding wd-explore-page-topics-and-tuits">
-                </br>
-                Trending in Science
-            </div>
-            <div class="wd-left-padding wd-explore-page-titles">
-                Starship
-                </br>
-            </div>
-            <div class="wd-left-padding wd-explore-page-topics-and-tuits">
-                55.5k Tuits
-                </br>
-                </br>
-            </div>
-        </div>
+        <div class="container-fluid h-100 w-100">
 
-        <div class="wd-border-for-topics">
-            <div class="wd-left-padding wd-explore-page-topics-and-tuits">
-                </br>
-                Sports Trending
-            </div>
-            <div class="wd-left-padding wd-explore-page-titles">
-                Joe Rogan
-                </br>
-            </div>
-            <div class="wd-left-padding wd-explore-page-topics-and-tuits">
-                5,218 Tuits
-                </br>
-                </br>
-            </div>
-        </div>
+            <!--            NAVIGATION COLUMN-->
 
-        <div class="wd-border-for-topics">
-            <div class="wd-grid-row">
-                <div class="wd-grid-col-two-thirds-page">
-                    <div class="wd-left-padding wd-explore-page-authors">
-                        </br>
-                        The New York Times
-                    </div>
-                    <div class="wd-left-padding wd-explore-page-titles">
-                        CNN's Cuomo conundrum: A star anchor with a brother in trouble
-                        </br>
-                        </br>
-                    </div>
-                </div>
-                <div class="wd-top-padding wd-grid-col-third-page">
-                    <img src="cnn-topic-image.png"
-                         class="wd-pos-absolute-right-16px
-                     wd-topic-image-rounded-corners-all-around"
-                         width="100px"
-                         height="100px"/>
-                </div>
-            </div>
-        </div>
+            <div class="row">
+                <div class="col-xs-2 col-sm-2 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="p-1">
+                        <div class="list-group">
+                            <a href="../home.html" class="list-group-item list-group-item-action"><i
+                                    class="fab fa-twitter"></i></a>
 
-        <div class="wd-border-for-topics">
-            <div class="wd-grid-row">
+                            <a href="../home.html" class="list-group-item">
+                                <i class="fas fa-home"></i>
+                                <span class="d-none d-sm-none d-md-inline"> Home</span></a>
 
-                <div class="wd-grid-col-two-thirds-page">
-                    <div class="wd-left-padding wd-explore-page-topics-and-tuits">
-                        </br>
-                        COVID-19
-                    </div>
-                    <div class="wd-left-padding wd-explore-page-titles">
-                        COVID-19: News and updates for Massachusetts
-                        </br>
-                        </br>
+                            <a href="#" class="list-group-item list-group-item-action active">
+                                <i class="fas fa-hashtag"></i>
+                                <span class="d-none d-sm-none d-md-inline"> Explore</span></a>
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fas fa-bell"></i>
+                                <span class="d-none d-sm-none d-md-inline"> Notifications</span></a>
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fas fa-envelope"></i>
+                                <span class="d-none d-sm-none d-md-inline"> Messages</span></a>
+
+                            <a href="../bookmarks/index.html" class="list-group-item list-group-item-action">
+                                <i class="fas fa-bookmark"></i>
+                                <span class="d-none d-sm-none d-md-inline"> Bookmarks</span></a>
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fas fa-list"></i>
+                                <span class="d-none d-sm-none d-md-inline"> Lists</span></a>
+
+                            <a href="../profile.html" class="list-group-item list-group-item-action">
+                                <i class="fas fa-user"></i>
+                                <span class="d-none d-sm-none d-md-inline"> Profile</span></a>
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <span class="d-none d-sm-none d-md-inline"> More</span></a>
+
+                            <a href="../tuit.html" class="mt-2">
+                                <button class="btn btn-primary w-100 rounded-pill">
+                                    Tuit
+                                </button>
+                                </span></a>
+                        </div>
                     </div>
                 </div>
-                <div class="wd-top-padding wd-grid-col-third-page">
-                    <img src="massachusetts-topic-image.jpeg"
-                         class="wd-pos-absolute-right-16px
-                     wd-topic-image-rounded-corners-all-around"
-                         width="100px"
-                         height="100px"/>
-                </div>
-            </div>
-        </div>
 
+                <!--                MAIN CONTENT-->
+                <div class="col-xs-10 col-sm-10 col-md-9 col-lg-6 col-xl-6 col-xxl-6">
 
-        <div class="wd-border-for-topics">
-            <div class="wd-grid-row">
-                <div class="wd-grid-col-two-thirds-page">
-                    <div class="wd-left-padding wd-explore-page-authors">
-                        </br>
-                        Bloomberg Opinion
+                    <!--        SEARCH BOX-->
+                    <div class="row">
+                        <div class="w-50">
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bg-transparent rounded-pill fas fa-search border-0 mt-1"></span>
+                                </div>
+                                <label for="search-box"></label>
+                                <input id="search-box"
+                                       type="search"
+                                       placeholder="Search Tuiter"
+                                       class="form-control rounded-pill pe-2">
+                            </div>
+                        </div>
+                        <a href="explore-settings.html" class="col">
+                            <i class="fas fa-cog fa-2x"></i>
+                        </a>
                     </div>
-                    <div class="wd-left-padding wd-explore-page-titles">
-                        Thinking about getting a booster? Read this first.
-                        </br>
-                        </br>
+
+                    <!--                    TABS-->
+                    <div>
+                        <ul class="nav nav-tabs">
+                            <li class="nav-item active">
+                                <a href="for-you.html" class="nav-link">For you</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="trending.html" class="nav-link">Trending</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="news.html" class="nav-link">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="sports.html" class="nav-link">Sports</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="entertainment.html" class="nav-link d-none d-md-block">Entertainment</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--                    CONTENT-->
+                    <div class="list-group">
+
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="col">
+                                <div class="row">
+                                    <img
+                                            src="starship-content-image.jpeg"
+                                            width="220px"
+                                            height="300px"
+                                            class="rounded">
+                                    <div class="wd-bottom-left wd-fg-text-font-30px wd-fg-color-white">
+                                        <b>SpaceX's Starship</b>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </a>
+
+
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row">
+                                <div class="col">
+                                    <div class=" wd-fg-color-gray wd-fg-text-font-13px">
+                                        Web Development - 2h
+                                    </div>
+                                    <div class="col wd-fg-text-font-13px">
+                                        <b>ReactJS
+                                            <i class="fas fa-check"></i> </br>
+                                            React.js is a component based front end library that makes it very easy
+                                            to built Single Page Applications or SPAs
+                                        </b>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row align-items-end">
+                                        <img
+                                                src="react-js-content-image.png"
+                                                width="100px"
+                                                height="120px"
+                                                class="rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="col wd-fg-text-font-13px">
+                                        <b>JavaScript</b>
+                                        <i class="fas fa-check"></i>
+                                        <div class="wd-fg-color-gray"> - 2h</div>
+                                        <b>
+                                            JavaScript is programming language that can run on desktops as
+                                            well as browsers
+                                        </b>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row align-items-end">
+                                        <img
+                                                src="js-content-image.png"
+                                                width="100px"
+                                                height="120px"
+                                                class="rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row">
+                                <div class="col">
+                                    <div class=" wd-fg-color-gray wd-fg-text-font-13px">
+                                        Web Development
+                                    </div>
+                                    <div class="col wd-fg-text-font-13px">
+                                        <b>jQuery</b>
+                                    </div>
+                                    <div class=" wd-fg-color-gray wd-fg-text-font-13px">
+                                        123K Tuits
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row align-items-end">
+                                        <img
+                                                src="jq-content-image.jpeg"
+                                                width="100px"
+                                                height="120px"
+                                                class="rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="list-group-item list-group-item-action">
+                            <div class="row">
+                                <div class="col">
+                                    <div class=" wd-fg-color-gray wd-fg-text-font-13px">
+                                        Web Development
+                                    </div>
+                                    <div class="col wd-fg-text-font-13px">
+                                        <b>NodeJS
+                                            <i class="fas fa-check"></i>
+                                        </b>
+                                    </div>
+                                    <div class=" wd-fg-color-gray wd-fg-text-font-13px">
+                                        123K Tuits
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="row align-items-end">
+                                        <img
+                                                src="nodejs-content-image.png"
+                                                width="100px"
+                                                height="120px"
+                                                class="rounded">
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
                     </div>
                 </div>
-                <div class="wd-top-padding wd-grid-col-third-page">
-                    <img src="booster-topic-image.jpeg"
-                         class="wd-pos-absolute-right-16px
-                     wd-topic-image-rounded-corners-all-around"
-                         width="100px"
-                         height="100px"/>
-                </div>
-            </div>
-        </div>
 
-        <div class="wd-border-for-topics">
-            <div class="wd-left-padding wd-explore-page-topics-and-tuits">
-                </br>
-                Trending in the United States
-            </div>
-            <div class="wd-left-padding wd-explore-page-titles">
-                Wonder Bread
-                </br>
-            </div>
-            <div class="wd-left-padding wd-explore-page-topics-and-tuits">
-                1,259 Tuits
-                </br>
-                </br>
+
+                <!--                    WHO TO FOLLOW-->
+                <div class="d-none d-lg-block col-lg-3 col-xl-3 col-xxl-3">
+                    <div class="p-1">
+                        <div class="list-group">
+                            <b class="list-group-item">Who to follow</b>
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img
+                                                src="java-account-image.jpeg"
+                                                width="40px"
+                                                height="40px"
+                                                class="rounded-circle">
+                                    </div>
+                                    <div class="col ms-2">
+                                        <b>Java</b></br>
+                                        @Java
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-primary btn-sm mt-2 rounded-pill">Follow</button>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img
+                                                src="relativity-space-account-image.png"
+                                                width="40px"
+                                                height="40px"
+                                                class="rounded-circle">
+                                    </div>
+                                    <div class="col ms-2">
+                                        <b>Relativity Space</b></br>
+                                        @relativityspace
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-primary btn-sm mt-2 rounded-pill">Follow</button>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img
+                                                src="virgin-galactic-account-image.png"
+                                                width="40px"
+                                                height="40px"
+                                                class="rounded-circle">
+                                    </div>
+                                    <div class="col ms-2">
+                                        <b>Virgin Galactic</b></br>
+                                        @virgingalactic
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-primary btn-sm mt-2 rounded-pill">Follow</button>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img
+                                                src="nasa-account-image.jpeg"
+                                                width="40px"
+                                                height="40px"
+                                                class="rounded-circle">
+                                    </div>
+                                    <div class="col ms-2">
+                                        <b>NASA</b></br>
+                                        @nasa
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-primary btn-sm mt-2 rounded-pill">Follow</button>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-2">
+                                        <img
+                                                src="tesla-account-image.png"
+                                                width="40px"
+                                                height="40px"
+                                                class="rounded-circle">
+                                    </div>
+                                    <div class="col ms-2">
+                                        <b>Tesla</b></br>
+                                        @tesla
+                                    </div>
+                                    <div class="col">
+                                        <button class="btn btn-primary btn-sm mt-2 rounded-pill">Follow</button>
+                                    </div>
+                                </div>
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+</body>
+</html>

@@ -1,15 +1,28 @@
-.wd-bg-color-black {
-    background-color: black;
+.wd-dimension-portrait {
+    width: 100%;
+    height: 100%;
 }
 
-.wd-fg-text-color-white {
+.wd-fg-color-gray {
+    color: darkgray;
+}
+
+.wd-fg-color-white {
     color: white;
 }
 
-.wd-border-grey {
-    border-width: 4px;
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
+.wd-fg-text-font-13px {
+    font-size: 13px;
+}
+
+.wd-fg-text-font-30px {
+    font-size: 30px;
+}
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 
 .wd-left-padding {
@@ -17,124 +30,5 @@
 }
 
 .wd-top-padding {
-    padding-top: 12px;
+    padding-top: 16px;
 }
-
-.wd-dimension-portrait {
-    width: 100%;
-    height: 100%;
-}
-
-.wd-search-bg-color-darkgray {
-    background-color: darkgray;
-}
-
-.wd-search-rounded-corners-all-around {
-    border-radius: 20px;
-    height: 25px;
-}
-
-
-.wd-pos-absolute-right-12px {
-    position: absolute;
-    right: 12px;
-}
-
-.wd-pos-absolute-right-16px {
-    position: absolute;
-    right: 16px;
-}
-
-.wd-topic-image-rounded-corners-all-around {
-    border-radius: 10px;
-}
-
-.wd-right-padding {
-    padding-right: 16px;
-}
-
-.wd-padding-all-around {
-    padding: 16px;
-}
-
-.wd-fg-text-color-blue {
-    color: rgb(29, 161, 242);
-}
-
-.wd-bottom-border {
-    border-bottom: 2px solid rgb(29, 161, 242);
-    size: 12px;
-}
-
-.wd-fg-text-color-gray {
-    color: rgb(110, 118, 125);
-}
-
-.wd-fg-text-font-15px {
-    font-size: 15px;
-}
-
-.wd-float-left {
-    float: left;
-}
-
-.wd-float-right {
-    float: right;
-}
-
-.wd-explore-page-headers {
-    padding: 16px;
-    font-size: 15px;
-}
-
-.wd-gear-icon-width-height {
-    width: 25px;
-    height: 25px;
-}
-
-.wd-float-top {
-    float: top;
-}
-
-.wd-float-bottom {
-    float: bottom;
-}
-
-.wd-explore-page-topics-and-tuits {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-explore-page-titles {
-    font-size: 20px;
-    color: white;
-}
-
-.wd-explore-page-authors {
-    font-size: 13px;
-    color: white;
-}
-
-.wd-border-for-topics {
-    border-color: rgb(110, 118, 125);
-    border-style: solid;
-    border-width: 1px;
-}
-
-
-.wd-grid-row {
-    clear: both;
-    height: 125px;
-}
-
-
-.wd-grid-col-third-page {
-    width: 33%;
-    float: right;
-}
-
-.wd-grid-col-two-thirds-page {
-    width: 67%;
-    float: left;
-}
-
