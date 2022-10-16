@@ -1,0 +1,34 @@
+.wd-dimension-portrait {
+    width: 100%;
+    height: 100%;
+}
+
+.wd-fg-color-gray {
+    color: darkgray;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-fg-text-font-13px {
+    font-size: 13px;
+}
+
+.wd-fg-text-font-30px {
+    font-size: 30px;
+}
+
+.wd-bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.wd-left-padding {
+    padding-left: 16px;
+}
+
+.wd-top-padding {
+    padding-top: 16px;
+}
