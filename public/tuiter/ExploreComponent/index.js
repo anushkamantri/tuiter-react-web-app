@@ -24,7 +24,7 @@ const ExploreComponent = () => {
            
 <!--           TABS -->
            <ul class="nav mb-2 nav-tabs" role="tablist">
-                       <li class="nav-item">
+                       <li class="nav-item ">
                                 <a class="nav-link active" href="for-you.html" class="nav-link">For you</a>
                             </li>
                             <li class="nav-item">

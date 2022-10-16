@@ -1,7 +1,7 @@
 const WhoToFollowListItem = (who) => {
     return (`
 <li>
-<a href="#" class="list-group-item list-group-item-action">
+<a href="#" class="list-group-item">
                                 <div class="row">
                                     <div class="col-2">
                                         <img
