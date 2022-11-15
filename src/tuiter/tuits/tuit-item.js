@@ -37,7 +37,7 @@ const TuitItem = (
                            onClick={() => deleteTuitHandler(tuit._id)}></i>
                     </div>
                     <div className="fw-bolder">{tuit.userName} <i
-                        className="fa fa-check-circle"></i>{tuit.handle} . {tuit.time}</div>
+                        className="fa fa-check-circle"></i>{" "}{tuit.handle} {" "} . {tuit.time}</div>
                     <div>{tuit.tuit}</div>
                 </div>
 

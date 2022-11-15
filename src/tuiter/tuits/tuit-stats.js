@@ -48,7 +48,7 @@ const TuitStats = (
                         disliked: true,
                     }))}
                    className={`bi
-                    ${tuit.disliked === true ? "bi-hand-thumbs-down-fill text-primary"
+                    ${tuit.disliked === true ? "bi-hand-thumbs-down-fill text-black"
                        : "bi-hand-thumbs-down"}`}
                 ></i>{" "}{tuit.dislikes === undefined ? 0 : tuit.dislikes}{" "}
             </div>
